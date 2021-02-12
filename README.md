@@ -2,7 +2,7 @@
 
 A visualization for various sorting algorithms like merge sort, heap sort, quick sort, insertion sort, bubble sort and selection sort.<br>
 
-### [Live Site]()
+### [Live Site](https://sorting-visualizer-01.netlify.app/)
 
 ## NOTES
 
