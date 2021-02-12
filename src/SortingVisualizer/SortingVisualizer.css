@@ -1,0 +1,44 @@
+.array-container {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.array-bar {
+  width: 20px;
+  display: inline-block; /* arranges the array bars in horizontal way*/
+  margin: 0 2px; /*Top,Bottom -> 0px Left,Right -> 1px*/
+}
+.buttons{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  background-color: #fff;
+  border: none;
+  color: blue;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+  display: block; /* Make the buttons appear below each other */
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+
+.buttons button:hover {
+  background-color: grey;
+  color: white;
+}
+.buttons button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+/* .buttons button:hover {
+    background-color: #3e8e41;
+} */
